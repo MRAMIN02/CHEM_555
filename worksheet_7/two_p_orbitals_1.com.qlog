@@ -1,0 +1,23 @@
+----------------------------------------
+Begin PBS Prologue Wed Nov 24 13:33:05 EST 2021 1637778785
+Job ID:		23607257.queuesrv1
+Username:	mramin02
+Group:		unixuser
+Nodes:		node095
+End PBS Prologue Wed Nov 24 13:33:05 EST 2021 1637778785
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Wed Nov 24 13:33:12 EST 2021 1637778792
+Job ID:		23607257.queuesrv1
+Username:	mramin02
+Group:		unixuser
+Job Name:	Job-two_p_orbitals_1.com
+Session:	4446
+Limits:		mem=12gb,ncpus=8,walltime=24:00:00
+Resources:	cput=00:00:08,mem=155792kb,vmem=14994376kb,walltime=00:00:02
+Queue:		short
+Account:		
+Nodes:	node095
+
+End PBS Epilogue Wed Nov 24 13:33:12 EST 2021 1637778792
+----------------------------------------

@@ -15,4 +15,3 @@ type (mqc_matrix)::A,B,C
 
 end program test
 
-

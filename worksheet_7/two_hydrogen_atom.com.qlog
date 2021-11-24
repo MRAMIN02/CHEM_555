@@ -1,0 +1,23 @@
+----------------------------------------
+Begin PBS Prologue Tue Nov 23 22:22:27 EST 2021 1637724147
+Job ID:		23606176.queuesrv1
+Username:	mramin02
+Group:		unixuser
+Nodes:		node108
+End PBS Prologue Tue Nov 23 22:22:27 EST 2021 1637724147
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Tue Nov 23 22:22:34 EST 2021 1637724154
+Job ID:		23606176.queuesrv1
+Username:	mramin02
+Group:		unixuser
+Job Name:	Job-two_hydrogen_atom.com
+Session:	31164
+Limits:		mem=12gb,ncpus=8,walltime=24:00:00
+Resources:	cput=00:00:08,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue:		short
+Account:		
+Nodes:	node108
+
+End PBS Epilogue Tue Nov 23 22:22:34 EST 2021 1637724154
+----------------------------------------

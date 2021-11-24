@@ -1,0 +1,390 @@
+************************************************************
+This is node108 of the Cardinal research cluster.
+Date: Tue Nov 23 23:23:43 EST 2021
+************************************************************
+ Set GAUSS_MDEF to "12GB".
+ Set GAUSS_PDEF to "8".
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /usr/local/g16reva03/legacy_cpu/g16/l1.exe "/tmp/tmp.8sriDE1lyY/Gau-31748.inp" -scrdir="/tmp/tmp.8sriDE1lyY/"
+ Default is to use a total of   8 processors:
+                                8 via shared-memory
+                                1 via Linda
+ Entering Link 1 = /usr/local/g16reva03/legacy_cpu/g16/l1.exe PID=     31749.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision A.03,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  EM64L-G16RevA.03 25-Dec-2016
+                23-Nov-2021 
+ ******************************************
+ %chk=two_p_orbitals.chk
+ --------------------
+ #P gen output=matrix
+ --------------------
+ 1/38=1,172=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=7,11=9,25=1,30=1/1,2,3,8;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 99/5=1,6=100000,9=1/99;
+ Leave Link    1 at Tue Nov 23 23:23:43 2021, MaxMem=           0 cpu:               1.0 elap:               0.1
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l101.exe)
+ ----
+ test
+ ----
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C
+ C                    1    R1
+       Variables:
+  R1                    5.                       
+ 
+ ITRead=  0  0
+ MicOpt= -1 -1
+ NAtoms=      2 NQM=        2 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2
+ IAtWgt=          12          12
+ AtmWgt=  12.0000000  12.0000000
+ NucSpn=           0           0
+ AtZEff=  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000
+ NMagM=    0.0000000   0.0000000
+ AtZNuc=   6.0000000   6.0000000
+ Leave Link  101 at Tue Nov 23 23:23:43 2021, MaxMem=  1610612736 cpu:               1.3 elap:               0.2
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2          6           0        0.000000    0.000000    5.000000
+ ---------------------------------------------------------------------
+ Stoichiometry    C2
+ Framework group  D*H[C*(C.C)]
+ Deg. of freedom     1
+ Full point group                 D*H     NOp   8
+ Largest Abelian subgroup         D2H     NOp   8
+ Largest concise Abelian subgroup C2      NOp   2
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    2.500000
+      2          6           0        0.000000    0.000000   -2.500000
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):           0.0000000           3.3691934           3.3691934
+ Leave Link  202 at Tue Nov 23 23:23:43 2021, MaxMem=  1610612736 cpu:               0.2 elap:               0.1
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l301.exe)
+ General basis read from cards:  (5D, 7F)
+ Centers:       1      2
+ SP 1 1.00
+     Exponent=  1.4786005330D-01 Coefficients=  3.9951282610D-01  6.0768371860D-01
+ ****
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ There are     2 symmetry adapted cartesian basis functions of AG  symmetry.
+ There are     0 symmetry adapted cartesian basis functions of B1G symmetry.
+ There are     1 symmetry adapted cartesian basis functions of B2G symmetry.
+ There are     1 symmetry adapted cartesian basis functions of B3G symmetry.
+ There are     0 symmetry adapted cartesian basis functions of AU  symmetry.
+ There are     2 symmetry adapted cartesian basis functions of B1U symmetry.
+ There are     1 symmetry adapted cartesian basis functions of B2U symmetry.
+ There are     1 symmetry adapted cartesian basis functions of B3U symmetry.
+ There are     2 symmetry adapted basis functions of AG  symmetry.
+ There are     0 symmetry adapted basis functions of B1G symmetry.
+ There are     1 symmetry adapted basis functions of B2G symmetry.
+ There are     1 symmetry adapted basis functions of B3G symmetry.
+ There are     0 symmetry adapted basis functions of AU  symmetry.
+ There are     2 symmetry adapted basis functions of B1U symmetry.
+ There are     1 symmetry adapted basis functions of B2U symmetry.
+ There are     1 symmetry adapted basis functions of B3U symmetry.
+     8 basis functions,     8 primitive gaussians,     8 cartesian basis functions
+     6 alpha electrons        6 beta electrons
+       nuclear repulsion energy         3.8100759186 Hartrees.
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=    2 NActive=    2 NUniq=    1 SFac= 4.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned on.
+ Leave Link  301 at Tue Nov 23 23:23:44 2021, MaxMem=  1610612736 cpu:               2.5 elap:               0.4
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l302.exe)
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ One-electron integral symmetry used in STVInt
+ NBasis=     8 RedAO= T EigKep=  9.82D-01  NBF=     2     0     1     1     0     2     1     1
+ NBsUse=     8 1.00D-06 EigRej= -1.00D+00 NBFU=     2     0     1     1     0     2     1     1
+ Leave Link  302 at Tue Nov 23 23:23:44 2021, MaxMem=  1610612736 cpu:               1.2 elap:               0.2
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l303.exe)
+ DipDrv:  MaxL=1.
+ Leave Link  303 at Tue Nov 23 23:23:44 2021, MaxMem=  1610612736 cpu:               0.3 elap:               0.1
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l308.exe)
+ Leave Link  308 at Tue Nov 23 23:23:44 2021, MaxMem=  1610612736 cpu:               0.3 elap:               0.2
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l401.exe)
+ ExpMin= 1.48D-01 ExpMax= 1.48D-01 ExpMxC= 1.48D-01 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  205 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Harris En= -35.6688323335408    
+ JPrj=0 DoOrth=F DoCkMO=F.
+ Initial guess orbital symmetries:
+       Occupied  (SGG) (SGU) (SGG) (PIU) (PIU) (PIG)
+       Virtual   (PIG) (SGU)
+ Leave Link  401 at Tue Nov 23 23:23:45 2021, MaxMem=  1610612736 cpu:               1.8 elap:               0.4
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l502.exe)
+ Keep R1 ints in memory in symmetry-blocked form, NReq=1602008.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=     36 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Closed shell SCF:
+ Using DIIS extrapolation, IDIIS=  1040.
+ NGot=  1610612736 LenX=  1610610566 LenY=  1610609684
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+
+ Cycle   1  Pass 1  IDiag  1:
+ E= -20.5009422456652    
+ DIIS: error= 2.53D-03 at cycle   1 NSaved=   1.
+ NSaved= 1 IEnMin= 1 EnMin= -20.5009422456652     IErMin= 1 ErrMin= 2.53D-03
+ ErrMax= 2.53D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.56D-05 BMatP= 2.56D-05
+ IDIUse=3 WtCom= 9.75D-01 WtEn= 2.53D-02
+ Coeff-Com:  0.100D+01
+ Coeff-En:   0.100D+01
+ Coeff:      0.100D+01
+ Gap=     0.104 Goal=   None    Shift=    0.000
+ GapD=    0.104 DampG=1.000 DampE=1.000 DampFc=1.0000 IDamp=-1.
+ RMSDP=6.32D-04 MaxDP=1.79D-03              OVMax= 0.00D+00
+
+ Cycle   2  Pass 1  IDiag  1:
+ E= -20.5009811794468     Delta-E=       -0.000038933782 Rises=F Damp=F
+ DIIS: error= 2.15D-04 at cycle   2 NSaved=   2.
+ NSaved= 2 IEnMin= 2 EnMin= -20.5009811794468     IErMin= 2 ErrMin= 2.15D-04
+ ErrMax= 2.15D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.84D-07 BMatP= 2.56D-05
+ IDIUse=3 WtCom= 9.98D-01 WtEn= 2.15D-03
+ Coeff-Com: -0.925D-01 0.109D+01
+ Coeff-En:   0.000D+00 0.100D+01
+ Coeff:     -0.924D-01 0.109D+01
+ Gap=     0.104 Goal=   None    Shift=    0.000
+ RMSDP=5.85D-05 MaxDP=1.65D-04 DE=-3.89D-05 OVMax= 0.00D+00
+
+ Cycle   3  Pass 1  IDiag  1:
+ E= -20.5009814608363     Delta-E=       -0.000000281390 Rises=F Damp=F
+ DIIS: error= 3.95D-08 at cycle   3 NSaved=   3.
+ NSaved= 3 IEnMin= 3 EnMin= -20.5009814608363     IErMin= 3 ErrMin= 3.95D-08
+ ErrMax= 3.95D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.24D-15 BMatP= 1.84D-07
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved=  3 BigCof=    0.00 CofMax=   10.00 Det=-7.94D-23
+ Inversion failed.  Reducing to  2 matrices.
+ Coeff-Com: -0.184D-03 0.100D+01
+ Coeff:     -0.184D-03 0.100D+01
+ Gap=     0.104 Goal=   None    Shift=    0.000
+ RMSDP=1.08D-08 MaxDP=3.05D-08 DE=-2.81D-07 OVMax= 0.00D+00
+
+ Cycle   4  Pass 1  IDiag  1:
+ E= -20.5009814608364     Delta-E=       -0.000000000000 Rises=F Damp=F
+ DIIS: error= 8.54D-15 at cycle   4 NSaved=   3.
+ NSaved= 3 IEnMin= 3 EnMin= -20.5009814608364     IErMin= 3 ErrMin= 8.54D-15
+ ErrMax= 8.54D-15  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.91D-28 BMatP= 6.24D-15
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.000D+00 0.000D+00 0.100D+01
+ Coeff:      0.000D+00 0.000D+00 0.100D+01
+ Gap=     0.104 Goal=   None    Shift=    0.000
+ RMSDP=2.14D-15 MaxDP=6.04D-15 DE=-3.20D-14 OVMax= 0.00D+00
+
+ SCF Done:  E(RHF) =  -20.5009814608     A.U. after    4 cycles
+            NFock=  4  Conv=0.21D-14     -V/T= 6.3736
+ KE= 3.815114081962D+00 PE=-4.193363516300D+01 EE= 1.380746370157D+01
+ Leave Link  502 at Tue Nov 23 23:23:45 2021, MaxMem=  1610612736 cpu:               1.1 elap:               0.2
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l601.exe)
+ Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
+
+ **********************************************************************
+
+            Population analysis using the SCF density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+       Occupied  (SGG) (SGU) (PIU) (PIG) (SGG) (PIU)
+       Virtual   (PIG) (SGU)
+ Unable to determine electronic state:  partially filled degenerate orbitals.
+ Alpha  occ. eigenvalues --   -1.72973  -1.72486  -0.48270  -0.48082  -0.42267
+ Alpha  occ. eigenvalues --   -0.41101
+ Alpha virt. eigenvalues --   -0.30709  -0.29570
+          Condensed to atoms (all electrons):
+               1          2
+     1  C    5.982335   0.017665
+     2  C    0.017665   5.982335
+ Mulliken charges:
+               1
+     1  C    0.000000
+     2  C    0.000000
+ Sum of Mulliken charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  C    0.000000
+     2  C    0.000000
+ Electronic spatial extent (au):  <R**2>=            355.2780
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=              0.0000    Y=              0.0000    Z=              0.0000  Tot=              0.0000
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=            -45.4834   YY=            -36.3867   ZZ=            -35.7508
+   XY=              0.0000   XZ=              0.0000   YZ=             -0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -6.2764   YY=              2.8203   ZZ=              3.4562
+   XY=              0.0000   XZ=              0.0000   YZ=             -0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=             -0.0000  YYY=              0.0000  ZZZ=              0.0000  XYY=             -0.0000
+  XXY=              0.0000  XXZ=             -0.0000  XZZ=             -0.0000  YZZ=             -0.0000
+  YYZ=              0.0000  XYZ=             -0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -90.4468 YYYY=            -64.6049 ZZZZ=          -1422.4280 XXXY=              0.0000
+ XXXZ=              0.0000 YYYX=              0.0000 YYYZ=             -0.0000 ZZZX=              0.0000
+ ZZZY=              0.0000 XXYY=            -25.8419 XXZZ=           -309.8120 YYZZ=           -248.5734
+ XXYZ=             -0.0000 YYXZ=              0.0000 ZZXY=              0.0000
+ N-N= 3.810075918624D+00 E-N=-4.193363516300D+01  KE= 3.815114081962D+00
+ Symmetry AG   KE= 1.153679155823D+00
+ Symmetry B1G  KE= 0.000000000000D+00
+ Symmetry B2G  KE= 7.419584816354D-01
+ Symmetry B3G  KE= 4.661129080257D-36
+ Symmetry AU   KE= 0.000000000000D+00
+ Symmetry B1U  KE= 4.461779000371D-01
+ Symmetry B2U  KE= 7.366492722333D-01
+ Symmetry B3U  KE= 7.366492722333D-01
+ No NMR shielding tensors so no spin-rotation constants.
+ Leave Link  601 at Tue Nov 23 23:23:45 2021, MaxMem=  1610612736 cpu:               1.7 elap:               0.3
+ (Enter /usr/local/g16reva03/legacy_cpu/g16/l9999.exe)
+ 1\1\GINC-NODE108\SP\RHF\Gen\C2\ROOT\23-Nov-2021\0\\#P gen output=matri
+ x\\test\\0,1\C\C,1,5.\\Version=EM64L-G16RevA.03\HF=-20.5009815\RMSD=2.
+ 136e-15\Dipole=0.,0.,0.\Quadrupole=-4.6663642,2.0967877,2.5695765,0.,0
+ .,0.\PG=D*H [C*(C1.C1)]\\@
+
+
+      SCIENCE SANS CONSCIENCE N'EST QUE RUINE DE L'AME.
+
+                                                  -- RABELAIS
+
+ Writing WrtUnf unformatted file "two_p_orbitals.mat"
+ Gaussian matrix elements                                         Version   2 NLab=11 Len12L=8 Len4L=8
+ WrtUnf:  Coordinates translated and rotated.
+ WrtUnf:  Coordinates match /B/ after translation and rotation.
+ Write SHELL TO ATOM MAP                   from file     0 offset           0 length                   2 to matrix element file.
+ Write SHELL TYPES                         from file     0 offset           0 length                   2 to matrix element file.
+ Write NUMBER OF PRIMITIVES PER SHELL      from file     0 offset           0 length                   2 to matrix element file.
+ Write PRIMITIVE EXPONENTS                 from file     0 offset           0 length                   2 to matrix element file.
+ Write CONTRACTION COEFFICIENTS            from file     0 offset           0 length                   2 to matrix element file.
+ Write P(S=P) CONTRACTION COEFFICIENTS     from file     0 offset           0 length                   2 to matrix element file.
+ Write COORDINATES OF EACH SHELL           from file     0 offset           0 length                   6 to matrix element file.
+ Write GAUSSIAN SCALARS                    from file   501 offset           0 to matrix element file.
+ Write INTEGER ISO                         from file     0 offset           0 length                   2 to matrix element file.
+ Write REAL ZEFFECTIVE                     from file     0 offset           0 length                   2 to matrix element file.
+ Write REAL ZNUCLEAR                       from file     0 offset           0 length                   2 to matrix element file.
+ Write NUCLEAR GRADIENT                    from file 10584 offset           0 length                   6 to matrix element file.
+ Array NUCLEAR FORCE CONSTANTS              on  file 10585 does not exist.
+ Write ELECTRIC DIPOLE MOMENT              from file     0 offset           0 length                   3 to matrix element file.
+ Write OVERLAP                             from file   514 offset           0 length                  36 to matrix element file.
+ Write CORE HAMILTONIAN ALPHA              from file   515 offset           0 length                  36 to matrix element file.
+ Write CORE HAMILTONIAN BETA               from file   515 offset          36 length                  36 to matrix element file.
+ Write KINETIC ENERGY                      from file   516 offset           0 length                  36 to matrix element file.
+ Write ORTHOGONAL BASIS                    from file   685 offset           0 length                  64 to matrix element file.
+ Write DIPOLE INTEGRALS                    from file   518 offset           0 length                 108 to matrix element file.
+ Write DIP VEL INTEGRALS                   from file   572 offset           0 length                 108 to matrix element file.
+ Write R X DEL INTEGRALS                   from file   572 offset         108 length                 108 to matrix element file.
+ Write ALPHA ORBITAL ENERGIES              from file     0 offset           0 length                   8 to matrix element file.
+ Write ALPHA MO COEFFICIENTS               from file 10524 offset           0 length                  64 to matrix element file.
+ Write ALPHA DENSITY MATRIX                from file 10528 offset           0 length                  36 to matrix element file.
+ Write ALPHA SCF DENSITY MATRIX            from file 10528 offset           0 length                  36 to matrix element file.
+ Write ALPHA FOCK MATRIX                   from file 10536 offset           0 length                  36 to matrix element file.
+ No 2e integrals to process.
+ Job cpu time:       0 days  0 hours  0 minutes 13.9 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  2.4 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      8 Scr=      1
+ Normal termination of Gaussian 16 at Tue Nov 23 23:23:46 2021.
