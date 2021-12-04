@@ -1,0 +1,26 @@
+#! /bin/bash
+#PBS -q short
+#PBS -N Job-h2-sto3g.com
+#PBS -j oe
+#PBS -o h2-sto3g.com.qlog
+#PBS -l mem=12G
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=8
+#
+# Set up the Gaussian environment and prevent core files.
+module load g16reva03_lcpu
+ulimit -c 0
+#
+# Set the Gaussian scratch directory to the job-specific SCRATCH directory.
+export MY_SCRATCH=`mktemp -u -p "/tmp"`
+mkdir $MY_SCRATCH
+export GAUSS_SCRDIR="$MY_SCRATCH"
+#
+# Move to the submission script directory.
+cd $PBS_O_WORKDIR
+#
+# Run Gaussian...
+crc_node_print -d > h2-sto3g.log && g16 -m=12GB -p=8 < h2-sto3g.com >> h2-sto3g.log && sed -i 's/Dipole orientation:/Dipole oientation:/' h2-sto3g.log
+#
+# Remove scratch directory.
+rm -rf $MY_SCRATCH
