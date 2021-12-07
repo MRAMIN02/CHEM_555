@@ -1,0 +1,23 @@
+----------------------------------------
+Begin PBS Prologue Mon Dec  6 18:50:25 EST 2021 1638834625
+Job ID:		23614923.queuesrv1
+Username:	mramin02
+Group:		unixuser
+Nodes:		node106
+End PBS Prologue Mon Dec  6 18:50:25 EST 2021 1638834625
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Mon Dec  6 18:50:33 EST 2021 1638834633
+Job ID:		23614923.queuesrv1
+Username:	mramin02
+Group:		unixuser
+Job Name:	Job-co.com
+Session:	16207
+Limits:		mem=12gb,ncpus=8,walltime=24:00:00
+Resources:	cput=00:00:10,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue:		short
+Account:		
+Nodes:	node106
+
+End PBS Epilogue Mon Dec  6 18:50:33 EST 2021 1638834633
+----------------------------------------
